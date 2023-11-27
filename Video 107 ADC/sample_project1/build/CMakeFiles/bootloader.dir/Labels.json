@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "C:/deneme/adc_test/sample_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
