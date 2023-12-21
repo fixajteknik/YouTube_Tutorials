@@ -90,7 +90,7 @@ void setup() {
   }
   mevcutAyarlar();
 
-  digitalWrite(M0, 1);  //  coordinator mode m0=0, m1=0  |  normal mode m0=1, m1=0
+  digitalWrite(M0, 0);  //  coordinator mode m0=0, m1=0  |  normal mode m0=1, m1=0
   digitalWrite(M1, 0);
   delay(2000);
   // RESET();       //E70 parametre ayarlarını sıfırlar.
