@@ -29,8 +29,8 @@ unsigned long kanalBekleme_sure = 0;
 int kanalBekleme_bekleme = 3000;
 
 unsigned long kanalBekleme_sure_RESTART = 0;
-unsigned long kanalBekleme_bekleme_RESTART = 30000;  //node ağa 60sn içinde bağlanamazsa
-                                                     //esp kendine reset atıyor. Birnevi watchdog gibi
+unsigned long kanalBekleme_bekleme_RESTART = 100000;  //node ağa 60sn içinde bağlanamazsa
+                                                      //esp kendine reset atıyor. Birnevi watchdog gibi
 
 byte e = 0;
 String receivedData = "";
@@ -46,7 +46,7 @@ const char *ayarlar2[] = { "AT+WMCFG=1",      // 0 coordinatör, 1 Node, 4 defau
                            "AT+CNCFG=0",      //the channels are only 0,1,2,3,4,5,6 and 128.
                            "AT+TFOCFG=3",     // 0 boardcast gibi, 1 data+long adres, 3 data+ RSSI
                            "AT+TFICFG=0",     //0 input broadcast, 1 short adres + data, 2 long adres + data
-                           "AT+RSCFG=100",    //Node ağa bağlanmazsa yeniden başlat (80-60=20sn sonra)
+                           "AT+RSCFG=63",     //Node ağa bağlanmazsa yeniden başlat (80-60=20sn sonra)
                            "AT+IOCFG=1",      //push pull 0 yaparsanız enerji verimlili adına ledleri kapatır.
                            "AT+PWCFG=1",      //iletim gücü 30dbm, 0 yapılınca maximum ama uzun kullandım modüle zararlı
                            "AT+TLCFG=3",      //güç tüketim modu maximum, default 2
@@ -121,9 +121,11 @@ void loop() {
     Serial.println(*((int *)mesaj.temp));
 
     Serial.print("RSSI: ");
-    char rssi[1];
-    fixajSerial.readBytes(rssi, 1);
-    Serial.println(rssi[0], DEC);
+    while(fixajSerial.available()){
+      Serial.print(fixajSerial.read(), DEC);
+    }
+    Serial.println(".");
+
     kanalBekleme_sure_RESTART = millis();  // yeniden başlatmayı durdur
   }
 

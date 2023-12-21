@@ -120,9 +120,10 @@ void loop() {
     Serial.println(*((int *)mesaj.temp));
 
     Serial.print("RSSI: ");
-    char rssi[1];
-    fixajSerial.readBytes(rssi, 1);
-    Serial.println(rssi[0], DEC);
+    while (fixajSerial.available()) {
+      Serial.print(fixajSerial.read(), DEC);
+    }
+    Serial.println(".");
   }
 }
 
