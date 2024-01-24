@@ -1,0 +1,45 @@
+-- Existing sdkconfig 'C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/sdkconfig' renamed to 'C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/sdkconfig.old'.
+-- Found Git: /Git/cmd/git.exe (found version "2.43.0.windows.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/ESP/vscodeexample/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/ESP/vscodeexample/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/ESP/vscodeexample/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+-- Project sdkconfig file C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: c:/ESP/vscodeexample/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "uart_async_rxtxtasks" version: 1
+-- Adding linker script C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/ESP/vscodeidf/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/ESP/vscodeidf/esp-idf/components/app_trace C:/ESP/vscodeidf/esp-idf/components/app_update C:/ESP/vscodeidf/esp-idf/components/bootloader C:/ESP/vscodeidf/esp-idf/components/bootloader_support C:/ESP/vscodeidf/esp-idf/components/bt C:/ESP/vscodeidf/esp-idf/components/cmock C:/ESP/vscodeidf/esp-idf/components/console C:/ESP/vscodeidf/esp-idf/components/cxx C:/ESP/vscodeidf/esp-idf/components/driver C:/ESP/vscodeidf/esp-idf/components/efuse C:/ESP/vscodeidf/esp-idf/components/esp-tls C:/ESP/vscodeidf/esp-idf/components/esp_adc C:/ESP/vscodeidf/esp-idf/components/esp_app_format C:/ESP/vscodeidf/esp-idf/components/esp_coex C:/ESP/vscodeidf/esp-idf/components/esp_common C:/ESP/vscodeidf/esp-idf/components/esp_eth C:/ESP/vscodeidf/esp-idf/components/esp_event C:/ESP/vscodeidf/esp-idf/components/esp_gdbstub C:/ESP/vscodeidf/esp-idf/components/esp_hid C:/ESP/vscodeidf/esp-idf/components/esp_http_client C:/ESP/vscodeidf/esp-idf/components/esp_http_server C:/ESP/vscodeidf/esp-idf/components/esp_https_ota C:/ESP/vscodeidf/esp-idf/components/esp_https_server C:/ESP/vscodeidf/esp-idf/components/esp_hw_support C:/ESP/vscodeidf/esp-idf/components/esp_lcd C:/ESP/vscodeidf/esp-idf/components/esp_local_ctrl C:/ESP/vscodeidf/esp-idf/components/esp_mm C:/ESP/vscodeidf/esp-idf/components/esp_netif C:/ESP/vscodeidf/esp-idf/components/esp_netif_stack C:/ESP/vscodeidf/esp-idf/components/esp_partition C:/ESP/vscodeidf/esp-idf/components/esp_phy C:/ESP/vscodeidf/esp-idf/components/esp_pm C:/ESP/vscodeidf/esp-idf/components/esp_psram C:/ESP/vscodeidf/esp-idf/components/esp_ringbuf C:/ESP/vscodeidf/esp-idf/components/esp_rom C:/ESP/vscodeidf/esp-idf/components/esp_system C:/ESP/vscodeidf/esp-idf/components/esp_timer C:/ESP/vscodeidf/esp-idf/components/esp_wifi C:/ESP/vscodeidf/esp-idf/components/espcoredump C:/ESP/vscodeidf/esp-idf/components/esptool_py C:/ESP/vscodeidf/esp-idf/components/fatfs C:/ESP/vscodeidf/esp-idf/components/freertos C:/ESP/vscodeidf/esp-idf/components/hal C:/ESP/vscodeidf/esp-idf/components/heap C:/ESP/vscodeidf/esp-idf/components/http_parser C:/ESP/vscodeidf/esp-idf/components/idf_test C:/ESP/vscodeidf/esp-idf/components/ieee802154 C:/ESP/vscodeidf/esp-idf/components/json C:/ESP/vscodeidf/esp-idf/components/log C:/ESP/vscodeidf/esp-idf/components/lwip C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/main C:/ESP/vscodeidf/esp-idf/components/mbedtls C:/ESP/vscodeidf/esp-idf/components/mqtt C:/ESP/vscodeidf/esp-idf/components/newlib C:/ESP/vscodeidf/esp-idf/components/nvs_flash C:/ESP/vscodeidf/esp-idf/components/openthread C:/ESP/vscodeidf/esp-idf/components/partition_table C:/ESP/vscodeidf/esp-idf/components/perfmon C:/ESP/vscodeidf/esp-idf/components/protobuf-c C:/ESP/vscodeidf/esp-idf/components/protocomm C:/ESP/vscodeidf/esp-idf/components/pthread C:/ESP/vscodeidf/esp-idf/components/sdmmc C:/ESP/vscodeidf/esp-idf/components/soc C:/ESP/vscodeidf/esp-idf/components/spi_flash C:/ESP/vscodeidf/esp-idf/components/spiffs C:/ESP/vscodeidf/esp-idf/components/tcp_transport C:/ESP/vscodeidf/esp-idf/components/touch_element C:/ESP/vscodeidf/esp-idf/components/ulp C:/ESP/vscodeidf/esp-idf/components/unity C:/ESP/vscodeidf/esp-idf/components/usb C:/ESP/vscodeidf/esp-idf/components/vfs C:/ESP/vscodeidf/esp-idf/components/wear_levelling C:/ESP/vscodeidf/esp-idf/components/wifi_provisioning C:/ESP/vscodeidf/esp-idf/components/wpa_supplicant C:/ESP/vscodeidf/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/ESP/vscodeexample/uartsimple/uart_async_rxtxtasks/build
