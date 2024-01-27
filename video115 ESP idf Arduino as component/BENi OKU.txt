@@ -1,0 +1,8 @@
+ESP-IDF Add ArduinoESP32 as ESP-IDF Component
+git clone https://github.com/espressif/arduino-esp32.git arduino
+Choose arduino-as-component
+CONFIG_FREERTOS_HZ=1000
+Autostart Arduino setup and loop on boot
+mbedTLS – TLS Key Exchange Methods
+-Enable pre-shared-keycyphersuites
+-Enable PSK based ciphersuites

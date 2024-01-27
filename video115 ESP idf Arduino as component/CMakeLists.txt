@@ -1,0 +1,16 @@
+# The following lines of boilerplate have to be in your project's
+# CMakeLists in this exact order for cmake to work correctly
+cmake_minimum_required(VERSION 3.5)
+
+set(EXTRA_COMPONENT_DIRS 
+    "C:/ESP/lib/arduino"
+)
+
+#arduino still kod yazarken serial.print çalışsın diye
+#eğer bu satırlar olmaz ise printf komutu çalışır
+
+add_definitions(-DARDUINO_USB_MODE)
+add_definitions(-DARDUINO_USB_CDC_ON_BOOT)
+
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(fixajidfArd)
