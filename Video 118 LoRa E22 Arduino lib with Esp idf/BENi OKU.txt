@@ -1,0 +1,53 @@
+ESP-IDF Add ArduinoESP32 as ESP-IDF Component
+git clone https://github.com/espressif/arduino-esp32.git arduino
+
+İşlem Sırası
+
+1- ) önce ANA Cmakelist dosyasını düzenle ve ihtiyacın olan library ekle
+yeni library için muhteşem cmakelist dosyasını eklediğin kütüphane klasörüne  ekle
+
+set(EXTRA_COMPONENT_DIRS 
+    "C:/ESP/lib/arduino"
+    "C:/ESP/lib/ClosedCube_HDC1080"
+)
+
+add_definitions(-DARDUINO_USB_MODE)
+add_definitions(-DARDUINO_USB_CDC_ON_BOOT)
+
+2-) build (silindir şekli) et CONFIG_FREERTOS_HZ=1000 hatası alacaksın
+sol menüden sdkconfig çift tıkla açılan listeden CONFIG_FREERTOS_HZ=100 olan değeri 1000 yap KAYDET Arduino öyle istiyor. VScode da altta çöp kutusu şekline bas ful clean yap. tekrar build yap.
+
+3-) Arduino güncelle aktif et initilize yap
+vscode altta esp idf terminali aç
+
+cd C:/ESP/lib/arduino
+git submodule update --init --recursive
+
+
+4-) sdkconfig (dişli sembol) bas, Açılan sdk config menüden Arduino ve eklediğimiz kütüphanenin ayarlarını ver
+
+CONFIG_FREERTOS_HZ=1000 //tekrar kontrol etmekte fayda var aramaya HZ yaz
+Autostart Arduino setup and loop on boot
+mbedTLS – TLS Key Exchange Methods
+-Enable pre-shared-keycyphersuites
+-Enable PSK based ciphersuites
+
+5-) Build yap Hata Alacaksın Kodları düzenle arduino setup loop stilinde yaz.
+- en üstte arduino yu olmalı unutma
+
+#include <Arduino.h>
+
+6-) yeniden build yap tekrar hata alabilirsin.
+fonksiyonların prototipleri en üstte setup ın üstünde olmalıdır.
+
+void loraAyarlar(); //şeklinde. Çünkü idf kütüphane mantığında kodlanır. STM32 gibi
+
+
+Tamamdır.
+
+Mehmet YILDIZ
+fixaj.com
+
+
+
+
