@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main-complete.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-build.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-configure.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-download.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-install.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-mkdir.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-patch.rule"
+		},
+		{
+			"file" : "C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ulp_main"
+		],
+		"name" : "ulp_main"
+	}
+}

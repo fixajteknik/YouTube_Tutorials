@@ -1,0 +1,202 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .sbss.gpio_level_previous
+                0x00000000        0x1 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .text.ulp_riscv_adc_read_channel
+                0x00000000       0xae CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text.ulp_riscv_lock_acquire
+                0x00000000       0x16 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text.ulp_riscv_lock_release
+                0x00000000        0x6 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_delay_cycles
+                0x00000000       0x12 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_gpio_output_level.part.0
+                0x00000000       0x1a CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_uart_init
+                0x00000000       0x9a CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_uart_putc
+                0x00000000       0x9e CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_install
+                0x00000000        0xe CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_str
+                0x00000000       0x34 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_hex
+                0x00000000       0x50 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .sbss.s_print_ctx
+                0x00000000        0x8 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_wait_for_interrupt.constprop.0
+                0x00000000       0x32 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_master_set_slave_addr
+                0x00000000       0x1a CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_master_set_slave_reg_addr
+                0x00000000       0x20 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_master_read_from_device
+                0x00000000      0x152 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_master_write_to_device
+                0x00000000      0x10e CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_timer_stop
+                0x00000000       0x10 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_timer_resume
+                0x00000000       0x12 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_gpio_wakeup_clear
+                0x00000000       0x12 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .data          0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_read_raw_data
+                0x00000000       0x40 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_read_benchmark
+                0x00000000       0x46 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_filter_read_smooth
+                0x00000000       0x3e CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_reset_benchmark
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_sleep_channel_read_data
+                0x00000000       0x4c CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_sleep_channel_read_benchmark
+                0x00000000       0x3e CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_sleep_channel_read_smooth
+                0x00000000       0x36 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .text.ulp_riscv_touch_pad_sleep_channel_reset_benchmark
+                0x00000000       0x1a CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .comment       0x00000000       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000         0x00001000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/vscode/v5.2.1/esp-idf/components/ulp/ld/esp32s3.peripherals.ld
+                0x00008000                        PROVIDE (RTCCNTL = 0x8000)
+                [!provide]                        PROVIDE (RTCIO = 0xa400)
+                0x0000c800                        PROVIDE (SENS = 0xc800)
+                [!provide]                        PROVIDE (RTC_I2C = 0xec00)
+LOAD CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+LOAD CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_touch.c.obj
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32\libc_nano.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a
+START GROUP
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32\libc_nano.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/rv32imc_zicsr_zifencei/ilp32\libgcc.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32\libc_nano.a
+LOAD C:/vscode/tool/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/13.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32\libnosys.a
+END GROUP
+                0x00000000                        . = ORIGIN (ram)
+
+.text           0x00000000      0x126
+ *start.S.obj(.text.vectors)
+ .text.vectors  0x00000000       0x1e CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+                0x00000000                reset_vector
+                0x00000010                irq_vector
+ *(.text)
+ .text          0x0000001e       0x10 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ *(.text*)
+ .text.ulp_riscv_delay_cycles.constprop.0
+                0x0000002e       0x18 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .text.startup.main
+                0x00000046       0x9c CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+                0x00000046                main
+ .text.ulp_riscv_rescue_from_monitor
+                0x000000e2       0x14 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000000e2                ulp_riscv_rescue_from_monitor
+ .text.ulp_riscv_wakeup_main_processor
+                0x000000f6        0xc CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000000f6                ulp_riscv_wakeup_main_processor
+ .text.ulp_riscv_halt
+                0x00000102       0x24 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x00000102                ulp_riscv_halt
+
+.rela.dyn       0x00000128        0x0
+ .rela.text     0x00000128        0x0 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+
+.rodata
+ *(.rodata)
+ *(.rodata*)
+
+.data
+ *(.data)
+ *(.data*)
+ *(.sdata)
+ *(.sdata*)
+
+.bss            0x00000128        0x8
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ .sbss.a.0      0x00000128        0x4 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .sbss.gpio_level_previous_a
+                0x0000012c        0x4 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+                0x0000012c                gpio_level_previous_a
+                0x00001000                        __stack_top = (ORIGIN (ram) + LENGTH (ram))
+OUTPUT(ulp_main.elf elf32-littleriscv)
+
+.comment        0x00000000       0x2f
+ .comment       0x00000000       0x2f CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+
+.riscv.attributes
+                0x00000000       0x44
+ .riscv.attributes
+                0x00000000       0x44 CMakeFiles/ulp_main.dir/C_/ESP/vscodeexample/ulp/ulp11/main/ulp/main.c.obj
+ .riscv.attributes
+                0x00000044       0x2d CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .riscv.attributes
+                0x00000071       0x44 CMakeFiles/ulp_main.dir/C_/vscode/v5.2.1/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj

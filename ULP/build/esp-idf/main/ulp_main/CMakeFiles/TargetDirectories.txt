@@ -1,0 +1,5 @@
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main/CMakeFiles/ulp_main.dir
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main/CMakeFiles/ld_script.dir
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main/CMakeFiles/build.dir
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main/CMakeFiles/edit_cache.dir
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main/CMakeFiles/rebuild_cache.dir

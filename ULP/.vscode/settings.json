@@ -1,0 +1,23 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "c:\\vscode\\tool\\tools\\xtensa-esp-elf-gdb\\12.1_20231023\\xtensa-esp-elf-gdb\\bin;c:\\vscode\\tool\\tools\\riscv32-esp-elf-gdb\\12.1_20231023\\riscv32-esp-elf-gdb\\bin;c:\\vscode\\tool\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin;c:\\vscode\\tool\\tools\\riscv32-esp-elf\\esp-13.2.0_20230928\\riscv32-esp-elf\\bin;c:\\vscode\\tool\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;c:\\vscode\\tool\\tools\\cmake\\3.24.0\\bin;c:\\vscode\\tool\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;c:\\vscode\\tool\\tools\\ninja\\1.11.1;c:\\vscode\\tool\\tools\\idf-exe\\1.0.3;c:\\vscode\\tool\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;c:\\vscode\\tool\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;c:\\vscode\\tool\\tools\\esp-rom-elfs\\20230320",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "c:\\vscode\\tool\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "c:\\vscode\\tool\\tools\\esp-rom-elfs\\20230320/"
+    },
+    "idf.espIdfPathWin": "c:\\vscode\\v5.2.1\\esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.pythonBinPathWin": "c:\\vscode\\tool\\python_env\\idf5.2_py3.11_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "c:\\vscode\\tool",
+    "idf.portWin": "COM38",
+    "idf.flashType": "UART",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "ulp_riscv_utils.h": "c"
+    }
+}

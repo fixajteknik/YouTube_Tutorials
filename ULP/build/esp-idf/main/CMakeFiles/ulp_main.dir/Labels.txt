@@ -1,0 +1,13 @@
+# Target labels
+ ulp_main
+# Source files and their labels
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/CMakeFiles/ulp_main-complete.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-build.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-configure.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-download.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-install.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-mkdir.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-patch.rule
+C:/ESP/vscodeexample/ulp/ulp11/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-update.rule

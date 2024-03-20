@@ -1,0 +1,10 @@
+__stack_top B 1000 
+gpio_level_previous_a B 12c 4
+irq_vector T 10 
+main T 46 9c
+reset_vector T 0 
+RTCCNTL A 8000 
+SENS A c800 
+ulp_riscv_halt T 102 24
+ulp_riscv_rescue_from_monitor T e2 14
+ulp_riscv_wakeup_main_processor T f6 c
