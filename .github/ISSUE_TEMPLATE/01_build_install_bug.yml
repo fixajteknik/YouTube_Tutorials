@@ -1,0 +1,126 @@
+name: Yükleme ve Çalıştırma Hataları
+description: Fixaj Mağazamızdan aldığınız Modüller ile ilgili teknik sorularınızı Buradan sorunuz
+labels: ['Type: Bug']
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Şart CheckBox ları işaretleyin.
+      description: Soru Sormadan önce Lütfen Butün Checkboxları okuyun ve sizden istenilenleri yapın.
+      options:
+        - label: Vidoları (https://www.youtube.com/@Fixaj) ve Sitenizdeki Örnek Kodlara (https://fixaj.com/son-yazilarimiz/ )baktım ama çözüm bulamadım 
+          required: true
+        - label: İndirme sayfasındaki ( https://fixaj.com/indirme-sayfasi/ ) yazılımları ve driverları yükledim ama çözüm bulamadım.
+          required: true
+        - label: Ürünleri Fixaj Mağazalarından Aldım. Sadece kendi sattığıız ürünlere destek veriyoruz.
+          required: true
+        - label: Satın aldığım ürünlere Yorum yaptım.
+          required: true
+        - label: Soruya Kullandığım Kodları ve Devre şema fotoğralarını ekleyeceğim.
+          required: true
+  - type: input
+    id: sipNo
+    attributes:
+      label: Sipariş Numaranızı Yazınız
+      description: Mağazalarımızdan aldığınız ürünlerin sipariş numarları
+      placeholder: TS.....
+    validations:
+      required: true
+   - type: input
+    id: avatarno
+    attributes:
+      label: Yorum yazdığınız Kullanıcı adı nedir?
+      description: Mağazalarımızdan aldığınız ürünlere yorumlarınız ile desteklemeyi unutmayın
+      placeholder: meraklıyazılımcı
+    validations:
+      required: true
+  - type: input
+    id: idf_version
+    attributes:
+      label: Arduino IDE veya IDF version.
+      description: version does this issue occur on? Run `git describe --tags` to find it.
+      placeholder: ex. v3.2-dev-1148-g96cd3b75c veya Arduino IDE 2.2
+    validations:
+      required: true
+  - type: dropdown
+    id: operating_system
+    attributes:
+      label: İşletim Sisteminiz.
+      multiple: false
+      options:
+        - Windows
+        - Linux
+        - macOS
+    validations:
+      required: true
+  - type: dropdown
+    id: build
+    attributes:
+      label: Yazılım Bilginiz?
+      multiple: false
+      options:
+        - SIFIR
+        - 1 Yıldan Az
+        - 2 Yıldan Az 
+        - Uzman
+        - Hobi amaçlı 
+    validations:
+      required: true
+  - type: dropdown
+    id: Eğitim Seviyeniz?
+    attributes:
+      label: Özellikle teknofestçiler için.
+      multiple: false
+      options:
+        - İlköğretim
+        - Lise
+        - Üniversite
+        - Mezun
+        - İş Yeri için profesyonel
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ne olmasını istiyordunuz ama olmadı. Projenizin Özeti devre şeması Ekleyebilirsiniz.
+      description: Detaylı ve yalın bir ifade ile projenizin nasıl olması gerektiğini anlatın.
+      placeholder: Devre şu şekilde çalılmalıydı...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Ama gerçekte ne oldu?
+      description: Oluşan Hatalı davranışı yazar mısınız? kullandığınız kodları ve devre fotoğraflarınızı ve devre şemelarınızı muhakkak yükleyin.
+      placeholder: mesaj gönderiyorum ama alıcı da yeşil led ....
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: OUTPUT çıktısı nedir hatanın oluşma anını yazar mısınız?
+      description: 'Hata vermeye ne zaman başladı, hangi şartlarda bu hatayı alıyorsunuz adım adım yazar mısınız?'
+      value: |
+        1. Step
+        2. Step
+        3. Step
+        ...
+    validations:
+      required: false
+  - type: textarea
+    id: debug_logs
+    attributes:
+      label: Log çıktıları varsa ekleyin.
+      description: Seri mönitor çıktısı veya crash raporlarını ekleyin
+      placeholder: logs, OUTPUTs Reporlar.
+      render: plain
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More Information.
+      description: Ekstra birşeyler eklemek isterseniz?
+      placeholder: şu bilgisayarda çalıştı ama şunda çalışmadı gibi.
+    validations:
+      required: false
