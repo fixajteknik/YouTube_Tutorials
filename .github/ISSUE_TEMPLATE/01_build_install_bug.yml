@@ -21,7 +21,7 @@ body:
   - type: input
     id: sipNo
     attributes:
-      label: Sipariş Numaranızı Yazınız:
+      label: Sipariş Numaranızı Yazınız
       description: Mağazalarımızdan aldığınız ürünlerin sipariş numarları
       placeholder: TS.....
     validations:
