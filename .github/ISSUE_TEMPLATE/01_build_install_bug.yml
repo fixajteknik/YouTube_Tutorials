@@ -1,31 +1,51 @@
-name: Installation or build bug report
-description: Report installation or build bugs
+name: Yükleme ve Çalıştırma Hataları
+description: Fixaj Mağazamızdan aldığınız Modüller ile ilgili teknik sorularınızı Buradan sorunuz
 labels: ['Type: Bug']
 body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Answers checklist.
-      description: Before submitting a new issue, please follow the checklist and try to find the answer.
+      label: Şart CheckBox ları işaretleyin.
+      description: Soru Sormadan önce Lütfen Butün Checkboxları okuyun ve sizden istenilenleri yapın.
       options:
-        - label: I have read the documentation [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/) and the issue is not addressed there.
+        - label: Vidoları (https://www.youtube.com/@Fixaj) ve Sitenizdeki Örnek Kodlara (https://fixaj.com/son-yazilarimiz/ )baktım ama çözüm bulamadım 
           required: true
-        - label: I have updated my IDF branch (master or release) to the latest version and checked that the issue is present there.
+        - label: İndirme sayfasındaki ( https://fixaj.com/indirme-sayfasi/ ) yazılımları ve driverları yükledim ama çözüm bulamadım.
           required: true
-        - label: I have searched the issue tracker for a similar issue and not found a similar issue.
+        - label: Ürünleri Fixaj Mağazalarından Aldım. Sadece kendi sattığıız ürünlere destek veriyoruz.
           required: true
+        - label: Satın aldığım ürünlere Yorum yaptım.
+          required: true
+        - label: Soruya Kullandığım Kodları ve Devre şema fotoğralarını ekleyeceğim.
+          required: true
+  - type: input
+    id: sipNo
+    attributes:
+      label: Sipariş Numaranızı Yazınız:
+      description: Mağazalarımızdan aldığınız ürünlerin sipariş numarları
+      placeholder: TS.....
+    validations:
+      required: true
+   - type: input
+    id: avatarno
+    attributes:
+      label: Yorum yazdığınız Kullanıcı adı nedir?
+      description: Mağazalarımızdan aldığınız ürünlere yorumlarınız ile desteklemeyi unutmayın
+      placeholder: meraklıyazılımcı
+    validations:
+      required: true
   - type: input
     id: idf_version
     attributes:
-      label: IDF version.
-      description: On which IDF version does this issue occur on? Run `git describe --tags` to find it.
-      placeholder: ex. v3.2-dev-1148-g96cd3b75c
+      label: Arduino IDE veya IDF version.
+      description: version does this issue occur on? Run `git describe --tags` to find it.
+      placeholder: ex. v3.2-dev-1148-g96cd3b75c veya Arduino IDE 2.2
     validations:
       required: true
   - type: dropdown
     id: operating_system
     attributes:
-      label: Operating System used.
+      label: İşletim Sisteminiz.
       multiple: false
       options:
         - Windows
@@ -36,62 +56,63 @@ body:
   - type: dropdown
     id: build
     attributes:
-      label: How did you build your project?
+      label: Yazılım Bilginiz?
       multiple: false
       options:
-        - Command line with Make
-        - Command line with CMake
-        - Command line with idf.py
-        - Eclipse IDE
-        - CLion IDE
-        - VS Code IDE
-        - Other (please specify in More Information)
+        - SIFIR
+        - 1 Yıldan Az
+        - 2 Yıldan Az 
+        - Uzman
+        - Hobi amaçlı 
     validations:
       required: true
   - type: dropdown
-    id: windows_comand_line
+    id: Eğitim Seviyeniz?
     attributes:
-      label: If you are using Windows, please specify command line type.
+      label: Özellikle teknofestçiler için.
       multiple: false
       options:
-        - PowerShell
-        - CMD
+        - İlköğretim
+        - Lise
+        - Üniversite
+        - Mezun
+        - İş Yeri için profesyonel
     validations:
       required: false
   - type: textarea
     id: expected
     attributes:
-      label: What is the expected behavior?
-      description: Please provide a clear and concise description of the expected behavior.
-      placeholder: I expected it to...
+      label: Ne olmasını istiyordunuz ama olmadı. Projenizin Özeti devre şeması Ekleyebilirsiniz.
+      description: Detaylı ve yalın bir ifade ile projenizin nasıl olması gerektiğini anlatın.
+      placeholder: Devre şu şekilde çalılmalıydı...
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: What is the actual behavior?
-      description: Please describe actual behavior.
-      placeholder: Instead it...
+      label: Ama gerçekte ne oldu?
+      description: Oluşan Hatalı davranışı yazar mısınız? kullandığınız kodları ve devre fotoğraflarınızı ve devre şemelarınızı muhakkak yükleyin.
+      placeholder: mesaj gönderiyorum ama alıcı da yeşil led ....
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce.
-      description: 'How do you trigger this bug? Please walk us through it step by step. If this is build bug, please attach sdkconfig file (from your project folder). Please attach your code here.'
+      label: OUTPUT çıktısı nedir hatanın oluşma anını yazar mısınız?
+      description: 'Hata vermeye ne zaman başladı, hangi şartlarda bu hatayı alıyorsunuz adım adım yazar mısınız?'
       value: |
         1. Step
         2. Step
         3. Step
         ...
     validations:
-      required: true
+      required: false
   - type: textarea
     id: debug_logs
     attributes:
-      label: Build or installation Logs.
-      description: Build or installation log goes here, should contain the backtrace, as well as the reset source if it is a crash.
-      placeholder: Your log goes here.
+      label: Log çıktıları varsa ekleyin.
+      description: Seri mönitor çıktısı veya crash raporlarını ekleyin
+      placeholder: logs, OUTPUTs Reporlar.
       render: plain
     validations:
       required: false
@@ -99,7 +120,7 @@ body:
     id: more-info
     attributes:
       label: More Information.
-      description: Do you have any other information from investigating this?
-      placeholder: ex. I tried on my friend's Windows 10 PC and the command works there.
+      description: Ekstra birşeyler eklemek isterseniz?
+      placeholder: şu bilgisayarda çalıştı ama şunda çalışmadı gibi.
     validations:
       required: false
