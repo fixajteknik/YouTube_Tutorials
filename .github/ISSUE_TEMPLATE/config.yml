@@ -1,1 +1,14 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
+contact_links:
+  - name: YouTube videolarıma ulaşmak için
+    url: https://www.youtube.com/fixaj
+    about: Yardımcı ve eğitim amaçlı videolarımızı muhakka izleyin
+  - name: Örnek Kodları deneyin
+    url: https://fixaj.com/son-yazilarimiz/
+    about: İşe önce örnek kodlar üzerinden başlayın
+  - name: İndirme Dosyaları ve Driverlar.
+    url: https://fixaj.com/indirme-sayfasi/
+    about: Örnek Kodlara ilave eski ama fikir verebilecek Örnek proje kodlarımıza bakın
+  - name: Ürünlerimizi inceleyin
+    url: https://shop.fixaj.com/
+    about: Bütün ürünlerimize detaylı içerik sayfları eklenmiştir.
