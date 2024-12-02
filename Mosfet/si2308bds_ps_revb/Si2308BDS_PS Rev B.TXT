@@ -1,0 +1,39 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*Jul 14, 2014
+*ECN S14-1396, Rev. B
+*File Name: Si2308BDS_PS.txt and Si2308BDS_PS.lib
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet.  Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT Si2308BDS D G S
+M1  3  GX S S NMOS W=294728u L=0.25u      
+M2  S  GX S D PMOS W=294728u L=0.50u     
+RG  G  GX     2.8
+R1  D  3      RTEMP 8E-2
+CGS GX S      133E-12
+DBD S  D      DBD
+**************************************************************** 
+.MODEL  NMOS       NMOS ( LEVEL  = 3           TOX    = 5E-8
++ RS     = 3.5E-2         RD     = 0           NSUB   = 2.4E17  
++ KP     = 1E-5           UO     = 650             
++ VMAX   = 0              XJ     = 5E-7        KAPPA  = 3E-2
++ ETA    = 1E-4           TPG    = 1  
++ IS     = 0              LD     = 0            
++ CGSO   = 0              CGDO   = 0           CGBO   = 0 
++ NFS    = 0.8E12         DELTA  = 0.1)
+*************************************************************** 
+.MODEL  PMOS       PMOS ( LEVEL  = 3           TOX    = 5E-8
++NSUB    = 2E16           IS     = 0           TPG    = -1)   
+**************************************************************** 
+.MODEL DBD D (CJO=40E-12 VJ=0.38 M=0.20
++FC=0.5 TT=1.61E-8 T_MEASURED=25 BV=61
++RS=2.384e-02 N=1.384 IS=3.041e-10 IKF=1000  
++EG=1.185 XTI=1.386 TRS1=1.475e-03)
+**************************************************************** 
+.MODEL RTEMP RES (TC1=8E-3 TC2=5.5E-6)
+**************************************************************** 
+.ENDS 
