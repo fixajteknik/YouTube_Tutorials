@@ -1,0 +1,12 @@
+../Core/Src/main.c:88:6:HAL_UART_RxCpltCallback	2
+../Core/Src/main.c:103:5:main	4
+../Core/Src/main.c:174:6:SystemClock_Config	3
+../Core/Src/main.c:221:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:254:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:285:13:MX_DMA_Init	1
+../Core/Src/main.c:306:13:MX_GPIO_Init	1
+../Core/Src/main.c:345:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:367:6:HAL_UART_TxCpltCallback	2
+../Core/Src/main.c:390:5:__io_putchar	1
+../Core/Src/main.c:397:5:_write	2
+../Core/Src/main.c:410:6:Error_Handler	1
