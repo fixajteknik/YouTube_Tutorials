@@ -11,7 +11,8 @@ Videosun Sonunda ST-link ile reverse engineer yapacağız ve STM32 üzerinden RF
 [![Videoyu İzle](https://img.youtube.com/vi/CWErGq4kp5s/0.jpg)](https://www.youtube.com/watch?v=CWErGq4kp5s)
 
 
-Bu repo YouTube kanalımızdaki videoların kodlarını içermektedir. [ESP32 S3 kodlarına özel repo için bu linki kullanabilirsiniz.](https://github.com/fixajteknik/ESP32-S3-Tutorials)
+Bu repo YouTube kanalımızdaki videoların kodlarını içermektedir.
+ [ESP32 S3 kodlarına özel repo için bu linki kullanabilirsiniz.](https://github.com/fixajteknik/ESP32-S3-Tutorials)
 
 # Kullanılan ürünler
 
