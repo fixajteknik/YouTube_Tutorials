@@ -14,7 +14,7 @@ body:
           required: true
         - label: Ürünleri Fixaj Mağazalarından aldım. Sadece kendi sattığınız ürünlere destek veriyoruz.
           required: true
-        - label: Satın aldığım ürünlere yorum yaptım.
+        - label: Satın aldığım ürünlere yorum yaptım. YORUM Yazılmayan Sorular CEVAPLANMAZ.
           required: true
         - label: Soruya kullandığım kodları ve devre şema fotoğraflarını ekleyeceğim.
           required: true
@@ -106,7 +106,7 @@ body:
         3. Adım
         ...
     validations:
-      required: false
+      required: true
   - type: textarea
     id: debug_logs
     attributes:
@@ -115,7 +115,7 @@ body:
       placeholder: Logs, OUTPUTs, raporlar...
       render: plain
     validations:
-      required: false
+      required: true
   - type: textarea
     id: additional_info
     attributes:
